@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "RoadGuardian" },
+      { name: "description", content: "RoadWatch AI is an AI-powered platform for citizens to report road issues and monitor infrastructure maintenance." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "RoadGuardian" },
+      { property: "og:description", content: "RoadWatch AI is an AI-powered platform for citizens to report road issues and monitor infrastructure maintenance." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "RoadGuardian" },
+      { name: "twitter:description", content: "RoadWatch AI is an AI-powered platform for citizens to report road issues and monitor infrastructure maintenance." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7cbe7772-7404-4a8f-869a-627c4cfede2f/id-preview-2135fa6a--75870e72-3b69-44cb-a6f2-8a9eeb13747f.lovable.app-1780213842848.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/7cbe7772-7404-4a8f-869a-627c4cfede2f/id-preview-2135fa6a--75870e72-3b69-44cb-a6f2-8a9eeb13747f.lovable.app-1780213842848.png" },
     ],
     links: [
       {
